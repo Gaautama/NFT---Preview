@@ -1,0 +1,123 @@
+/************************ HTML *************************/
+body {
+  background-color: #0C1A2C;
+  font-family: 'Outfit';
+}
+
+hr {
+  color: #8EA6C7;
+}
+/************************ GENERAL ************************/
+.conteiner {
+  width: 250px;
+  height: 450px;
+  border-radius: 5%;
+  background-color: #15263E;
+  margin: 15rem 45%;
+  position: absolute;
+}
+
+.card {
+  width: 85%;
+  margin: auto;
+  position: relative;
+}
+/************************* IMAGE *************************/
+.card-image {
+  width: 210px;
+  height: 210px;
+  overflow: hidden;
+  margin-top: 1.1rem;
+  border-radius: 5%;
+  position: relative;
+}
+
+.card-image img {
+  width: 100%;
+  position: absolute;
+  justify-content: center;
+}
+
+img.view {
+  width: 40px;
+  padding-top: 45%;
+  position: relative;
+  z-index: -1;
+}
+/************************* TEXT **************************/
+.description,
+.price, .time,
+.footer {
+  font-size: 13px;
+  align-items: center;
+  color: #8EA6C7;
+  position: relative;
+}
+
+.title, a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.price {
+  color: #00FDFB;
+}
+
+.time {
+  text-align: right;
+}
+
+.footer {
+  display: flex;
+}
+
+.card-price {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/************************* IMG ***************************/
+.price img {
+  width: 8px;
+  height: 14px;
+  padding-right: 6px;
+}
+
+.time img {
+  width: 12px;
+  height: 12px;
+  padding-right: 6px;
+}
+
+.footer img {
+  width: 12%;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  margin-top: 0.5rem;
+  margin-right: 0.8rem;
+  vertical-align: top;
+}
+
+/************************ HOVER **************************/
+.title:hover,
+a:hover {
+  color: #00FDFB;
+  cursor: pointer;
+}
+
+.card-image:hover {
+  background-color: #00FDFB;
+  opacity: 0.8;
+  z-index: 0;
+  cursor: pointer;
+}
+
+.card-image:hover img {
+  opacity: 0.5;
+  z-index: 0;
+}
+
+.card-image:hover img.view {
+z-index: 1;
+color:
+}
